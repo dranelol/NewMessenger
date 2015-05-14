@@ -3,11 +3,9 @@ using System.Collections;
 
 public class DebugText : MonoBehaviour 
 {
-    [SerializeField]
-    private string text;
-
-    public void DisplayText()
+    public string Hallo = "asdasdasdasd";
+    public void DisplayAsdText(string hallo)
     {
-        Debug.Log(text);
+        Debug.Log(hallo);
     }
 }

@@ -10,7 +10,9 @@ public class ListenerTest : MonoBehaviour
 {
     [SerializeField]
     protected string condition;
+
     public EventDelegate del;
+
     private bool addedListener;
 
 
