@@ -13,13 +13,12 @@ public class BroadCastOnKey : MonoBehaviour {
     {
 	    if(Input.GetKeyDown(key))
         {
-            Messenger.Broadcast(message);
+            Messenger.Instance.Broadcast(message);
         }
 	}
 
     public KeyCode key;
     public string message;
-    public string param;
      
 
 }
